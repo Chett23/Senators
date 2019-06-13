@@ -15,7 +15,7 @@ export default function Senator(props) {
   return (
     <MainCont>
       <h1>{`Sen. ${senator.person.firstname} ${senator.person.lastname}`}</h1>
-      <Button><SenatorLink to='/'>Go Back</SenatorLink></Button>
+      <SenatorLink to='/' style={{alignSelf: 'flex-end'}}><Button>Go Back</Button></SenatorLink>
     </MainCont>
   )
 

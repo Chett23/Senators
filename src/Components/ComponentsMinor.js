@@ -46,7 +46,6 @@ export const Button = styled(Col)`
   height: 45px;
   border-radius: 10px;
   justify-content: space-around;
-  align-self: flex-end;
   `;
 
 export const TitleMain = styled.h1`
